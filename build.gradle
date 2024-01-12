@@ -1,0 +1,17 @@
+apply plugin: 'application'
+
+allprojects {
+    apply plugin: 'java'
+    repositories {
+        mavenCentral()
+    }
+}
+
+dependencies {
+    implementation project('Modules:App1')
+    implementation project('Modules:App2')
+}
+
+application{
+	mainClassName = 'com.training.main.Main'
+}

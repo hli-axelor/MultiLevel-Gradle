@@ -1,0 +1,5 @@
+rootProject.name = 'MultiProject'
+
+include('Modules:App1')
+include('Modules:App2')
+
